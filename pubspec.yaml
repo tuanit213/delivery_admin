@@ -1,0 +1,32 @@
+name: admin
+description: "A new Flutter project."
+publish_to: "none"
+version: 0.1.0+1
+
+environment:
+  sdk: ^3.12.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  go_router: ^17.3.0
+  flutter_map: ^7.0.2 # Thư viện bản đồ
+  latlong2: ^0.9.1 # Thư viện xử lý tọa độ
+  http: ^1.6.0
+  url_launcher: ^6.3.2
+  shared_preferences: ^2.5.5
+  cupertino_icons: 1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  config:
+    enable-windows-desktop: false
+  uses-material-design: true
+  assets:
+    - assets/images/login_illustration.png
+    - assets/images/admin-office-wide-base.png
+    - assets/images/admin-office-wide-typing.png
